@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import PizzaListContainer from './components/PizzaListContainer';
 import PizzaDetailsContainer from './components/PizzaDetailsContainer'
+import AddPizzaFormContainer from './components/AddPizzaFormContainer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <PizzaListContainer/>
         <PizzaDetailsContainer/>
+        <AddPizzaFormContainer/>
       </main>
     </div>
   );
