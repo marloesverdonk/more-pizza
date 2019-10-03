@@ -5,7 +5,7 @@ export default function PizzaList(props) {
     <div>
       <ul>
         {props.pizzas.map(pizza =>
-          <li key={pizza.id} onClick={() => props.selectPizza(pizza)}>
+          <li key={pizza.id} onClick={() => props.selectPizza(pizza.id)}>
             {pizza.name}
           </li>)}
       </ul>
